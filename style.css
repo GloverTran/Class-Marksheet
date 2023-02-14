@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+
+.form {
+    padding-bottom:10px;
+    padding-left: 40%;
+}
+#name{
+    margin-left: 50px;
+}
+#math{
+    margin-left: 10px;
+}
+#physical{
+    margin-left: 25px;
+}
+#chemistry{
+    margin-left: 17px;
+}
+#myTable{
+    width:100%;
+    margin-top: 40px;
+    text-align: center;
+}
+th{
+    border-radius: 20px;
+}
+.col-no1{
+   width:10% ;
+}
+.col-no2{
+    width:25% ;
+ }
+ .col-no3, .col-no4, .col-no5{
+     width:15%;
+ }
+ .col-no6{
+     width:20%;
+ }
+ @media (max-width: 992px){
+    .form {
+        padding-bottom:10px;
+        padding-left: 40%;
+    }
+    #name{
+        margin-left: 50px;
+    }
+    #math{
+        margin-left: 10px;
+    }
+    #physical{
+        margin-left: 25px;
+    }
+    #chemistry{
+        margin-left: 17px;
+    }
+    #myTable{
+        width:100%;
+        margin-top: 40px;
+        text-align: center;
+    }
+}
+@media (max-width: 768px){	
+    .form {
+        padding-bottom:10px;
+        padding-left: 20%;
+    }
+    #name{
+        margin-left: 50px;
+    }
+    #math{
+        margin-left: 10px;
+    }
+    #physical{
+        margin-left: 25px;
+    }
+    #chemistry{
+        margin-left: 17px;
+    }
+    #myTable{
+        width:100%;
+        margin-top: 40px;
+        text-align: center;
+    }
+}
+@media (max-width: 576px){
+    .form {
+        padding-bottom:10px;
+        padding-left: 10%;
+    }
+    #name{
+        margin-left: 40px;
+    }
+    #math{
+        margin-left: 0px;
+    }
+    #physical{
+        margin-left: 15px;
+    }
+    #chemistry{
+        margin-left: 7px;
+    }
+    #myTable{
+        width:100%;
+        margin-top: 40px;
+        text-align: center;
+    }
+}
